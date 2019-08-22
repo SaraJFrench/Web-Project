@@ -7,17 +7,20 @@
 <body>
 
 <!-- Navbar (sit on top) -->
-<div class="w3-top">
-  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
-    <a href="#home" class="w3-bar-item w3-button"><b>Upcoming</b> Events</a>
-    <!-- Float links to the right. Hide them on small screens -->
-    <div class="w3-right w3-hide-small">
-      <a href="index.html" class="w3-bar-item w3-button">Home</a>
-      <a href="training.html" class="w3-bar-item w3-button">Apply For Training</a>
-      <a href="contact.html" class="w3-bar-item w3-button">Services</a>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="training.html">Training <span class="sr-only">(current)</span></a>
+        <!-- <a class="nav-item nav-link" href="training.html">Training</a> -->
+        <a class="nav-item nav-link" href="contact.html">Services</a>
+        <!-- <a class="nav-item nav-link" href="#">Disabled</a> -->
+      </div>
     </div>
-  </div>
-</div>
+  </nav>
 
 <!-- Header -->
 <header class="w3-display-container w3-content w3-center" style="max-width:1500px">
