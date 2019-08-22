@@ -134,7 +134,7 @@
 
 	a {
 		@include vendor('transition', ('color 0.2s ease-in-out', 'border-bottom-color 0.2s ease-in-out'));
-		border-bottom: dotted 1px;
+		// border-bottom: dotted 1px;
 		color: _palette(accent1, bg);
 		text-decoration: none;
 
@@ -1130,7 +1130,7 @@
 			margin: 3em 0 0 0;
 
 			li {
-				border-left: dotted 1px;
+				// border-left: dotted 1px;
 				display: inline-block;
 				margin-left: 1em;
 				padding-left: 1em;
